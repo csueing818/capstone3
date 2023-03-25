@@ -81,23 +81,25 @@
 
 <form id="waterform" method="post">
 <div class="formgroup" id="name-form" action="#">
-    <label for="name">Your name<span>(Required, at least 3 characters)</span></label>
-    <input type="name" id="name" name="name" minlength="3" type="text" required>
+    <label for="name">Your name* <span>(Requires at least 3 characters)</span></label>
+    <input type="name" id="name" name="name" minlength="3" type="text" required/>
 </div>
 
+
 <div class="formgroup" id="email-form">
-    <label for="email">Your e-mail<span>(Required)</span></label>
+    <label for="email">Your e-mail*</label>
     <input type="email" id="email" name="email" />
 </div>
 
 <div class="formgroup" id="message-form">
-    <label for="message">Your message<span>(Required, at least 3 characters)</span></label>
-    <input type="message" name="message" minlength="3" type="text" required>
+    <label for="message">Your message <span>(Requires at least 3 characters)</span></label>
+    <textarea id="message" name="message" minlength="3" type="text" required></textarea>
 </div>
-	<input type="submit" value="Send your message!" type="text" required>
+	<input type="submit" value="Send your message!" />
 </form>
 </div>
 </div> 
+
 <script>
   alert("Welcome to our page!")
   </script> 
