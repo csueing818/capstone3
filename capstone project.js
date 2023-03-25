@@ -40,6 +40,9 @@ $(document).ready(function(){
 			alert("Please fill out the name,email, and message section!");
 			return false;
 		}
+		
+		  document.getElementById("myButton").onclick = function () {
+        	location.href = "www.yoursite.com";
 
 		});
 	});
