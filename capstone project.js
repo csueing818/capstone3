@@ -18,11 +18,7 @@ $(document).ready(function(){
 		var stopsubmit = false;
 		const waterform = $("#waterform")[0].checkValidity();
 		console.log(waterform[0]);
-	$("#getAnswer").click(function(event) {
-			//Prevent the default action of the event: in this case, prevent form from submitting data 
-			event.preventDefault();
-			//Other code for click event here
-			});	
+
 	
 	if(!$('#name').val()) {
 			errorfield('#name-form');
