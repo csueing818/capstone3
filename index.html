@@ -79,11 +79,8 @@
 
 </form>
 <div id="form">
-
 <div class="fish" id="fish"></div>
 <div class="fish" id="fish2"></div>
-
-
 
 <form id="waterform"  method="post">
 <div class="formgroup" id="name-form" action="#">
@@ -104,11 +101,20 @@
 </form>
 </div>
 </div> 
-
+<button type="submit" id="waterform"></button>
 <script>
   alert("Welcome to our page!")
   </script> 
-
+ <script>
+  document.getElementById("submit").addEventListener("click", redirectFunction);
+  function redirectFunction(){
+      window.location.href = "https://www.example.com";
+      // You can also use window.location.replace method
+      /*
+       * window.location.replace("https://www.example.com");
+       */
+  }
+</script>
 
   <script src="capstone project.js"></script>
 </body>
