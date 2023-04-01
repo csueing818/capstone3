@@ -1,5 +1,4 @@
 body {
-font-family: Arial;
 align-items: center;
 display: inline;
 background-color: #16425B;
@@ -9,7 +8,7 @@ background-color: #16425B;
 
 p {
     text-align:center;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
 	font-size: 16px;
 	color: #D9DCD6;
@@ -17,7 +16,7 @@ p {
 
 h1 {
     text-align:center;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Lora', serif;
 	font-weight: 700;
 	font-size: 40px;
 	color: #D9DCD6;
@@ -26,16 +25,19 @@ h1 {
 h2 {
     text-align:center;
 	color: #D9DCD6;
+	font-family: 'Lora', serif;
 }
 
 h3 {
     text-align:center;
 	color: #D9DCD6;
+	font-family: 'Lora', serif;
 }
 
 h4 {
     text-align:center;
 	color: #D9DCD6;
+	font-family: 'Lora', serif;
 }
 
 nav {
@@ -43,6 +45,7 @@ nav {
     margin-bottom: 50px;
     font-size: 20px;
     list-style-type: none;
+	font-family: 'Lora', serif;
 
 }
 
@@ -57,7 +60,7 @@ font-size: 20px;
 
 li{
 float: left;
-padding-inline-start: 150px;
+padding-inline-start: 85px;
 width: 175px;
 }
 
